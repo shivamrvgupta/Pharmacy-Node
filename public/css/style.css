@@ -1,0 +1,135 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+/* Header */
+.header{
+    padding: 1.5rem;
+}
+
+/* Main Content */
+
+form{
+    width: 40%;
+    height: auto;
+    font-size: medium;
+}
+
+.bg-img {
+    background-image: url("/assets/bg-image.png");
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bd-highlight{
+    background-color: rgba(53, 107, 152, 0.799);
+    padding: 3rem;
+    min-height: 500px;
+}
+
+.form-control{
+    height: 50px;
+    margin-bottom: -1%;
+    border-radius: 0;
+}
+
+.btn{
+    height: 50px;
+    border-radius: 0;
+    margin: .35rem;
+}
+
+.about1{
+    font-weight: 800;
+    font-size: 4rem;
+    margin-bottom: -1%;
+    color: #045a92;
+}
+.about2{
+    font-weight: 800;
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #0858e3;
+}
+
+.about p{
+    color: #808285;
+    font-size: 17px;
+}
+
+/* Courses */
+
+.courses{
+    min-height: 800px;
+    background-color: #0f2851;
+}
+
+.col-img{
+    padding-top: 5rem;
+    width: 100%;
+    height: 100%;
+}
+
+.col-text{
+    padding-top: 6rem;
+}
+
+.last1{
+    color: #01a7af;
+    font-weight: 600;
+    font-size: 35px;
+    padding: 0 10%;
+    text-transform: uppercase;
+}
+
+.list-course{
+    color: aliceblue;
+    font-size: 32px;
+}
+
+.courses li{
+    list-style-type: none;
+    padding: 1rem;  
+    font-weight: 500;
+    background: #0858e3;
+}
+
+.ctext{
+    margin-left: 10%;
+}
+
+.hr-lines:after{
+    content:" ";
+    height: 2px;
+    width: 80px;
+    background: #01a7af;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+
+  .hr-lines{
+    position: relative;
+  }
+
+
+  .hr-lines2:after{
+    content:" ";
+    height: 2px;
+    width: 80px;
+    background: #01a7af;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+
+  .hr-lines2{
+    position: relative;
+  }
+  .bottom{
+    margin-bottom: 25%;
+  }
